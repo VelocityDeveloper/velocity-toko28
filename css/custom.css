@@ -1,0 +1,139 @@
+:root {
+    --color-theme: #20c1eb;
+    --bs-body-font-size: .85rem !important;
+    --bs-body-font-family: Arial, Helvetica, sans-serif !important;
+}
+:root[data-bs-theme=light] {
+    --bs-link-color: #333333 !important;
+    --bs-link-hover-color: var(--color-theme) !important;
+}
+:root[data-bs-theme=light] body {
+    color: var(--bs-dark);
+    background-color: var(--bs-secondary);
+    font-size: 0.9rem !important;
+    line-height: 1.25rem !important;
+}
+:root[data-bs-theme=light] .navbar-dark {
+    --bs-navbar-color: rgb(255 255 255);
+}
+small {
+    font-size: .7rem !important;
+}
+.container {
+    max-width: 930px !important;
+}
+.color-theme {
+    color: var(--velocitytoko-color-main) !important;
+}
+.bg-theme {
+    background-color: var(--velocitytoko-color-main) !important;
+}
+.border-theme {
+    border-color: var(--velocitytoko-color-main) !important;
+}
+.navbar-brand img {
+    max-height: 98px !important;
+}
+
+.header-top a {
+    color: #fff !important;
+}
+.header-top .kontak-seller a {
+    font-size: 13px;
+    padding: 1px 2px;
+    color: #fff;
+}
+.header-top .kontak-seller svg {
+    width: 12px;
+    height: 12px;
+}
+.widget-area aside.widget {
+    background-color: #ffffff;
+    padding: 1rem;
+    box-shadow: var(--bs-box-shadow-sm) !important;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+.widget-area aside.widget .widget-title {
+    color: var(--velocitytoko-color-main);
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.5rem 0.75rem;
+    margin: -1rem -1rem 1rem;
+    background-color: #f4f4f4;
+    background-image: linear-gradient(white, #f0f0f0);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+body:not(.home) #primary #main,
+.page-template-velocitytoko-templates_profile #main {
+    background-color: #fff;
+    padding: 1rem;
+}
+.widget-area {
+    order: 3 !important;
+}
+.home-products-carousel article {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.footer-sidebar .widget-title {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.footer-sidebar .logo-ekspedisi img {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+}
+.footer-sidebar a.btn-sm.d-block.mb-1.btn.btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+}
+
+@media (min-width:768px) {
+    .widget-area {
+        max-width: 26% !important;
+        order: 1 !important;
+    }
+    .widget-area.right-sidebar .widget:last-child {
+        margin-bottom: 0 !important;
+    }
+    body:not(.home) #primary #main,
+    .page-template-velocitytoko-templates_profile #main {
+        height: 100%;
+    }
+    #main-nav ul > li > a {
+        padding: 0.5rem 1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+    #main-menu {
+        align-items: end;
+    }
+    #main-menu > li > a {
+        background-color: #ffffff;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        margin-right: 0.25rem;
+    }
+    .secondarymenu-body {        
+        background-color: var(--velocitytoko-color-main);
+    }
+    .secondarymenu-body li a {
+        color: #ffffff;
+    }
+    .secondarymenu-body li a:hover {
+        color: #f4f4f4;
+    }
+}
+
+@media (max-width:768px) {
+    body:not(.home) #primary #main,
+    .page-template-velocitytoko-templates_profile #main {
+        margin-bottom: 1rem;
+    }
+}
